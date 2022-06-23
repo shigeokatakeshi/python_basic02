@@ -24,7 +24,7 @@ def total_number():
 
     for a in range(0, element_number):
         total_value = total_value + int(number_non_space[a])
-    print(total_value)
+    print("合計値: ", total_value)
 
 
 # 最大値
@@ -35,7 +35,7 @@ def greatest_number():
         if int(greatest_value) < int(number_non_space[b]):
 
             greatest_value = number_non_space[b]
-    print(greatest_value)
+    print("最大値: ", greatest_value)
 
 
 # 最小値
@@ -46,7 +46,7 @@ def mini_number():
         if int(mini_value) >= int(number_non_space[c]):
             mini_value = number_non_space[c]
 
-    print(mini_value)
+    print("最小値: ", mini_value)
 
 
 # 平均値
@@ -55,7 +55,7 @@ def average_number():
 
     for a in range(0, element_number):
         total_value = total_value + int(number_non_space[a])
-    print(total_value / element_number)
+    print("平均値: ", total_value / element_number)
 
 
 
